@@ -9,8 +9,7 @@ import {
 
 // Place your portrait image at public/portrait.png and update this path.
 // It is referenced as a plain public-folder URL so GitHub Pages can serve it.
-const portrait = "/portrait.png";
-
+const portrait = `${import.meta.env.BASE_URL}portrait.png`;
 export default function App() {
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -184,7 +183,7 @@ function Hero() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
-              href="/resume.pdf" download
+              href={`${import.meta.env.BASE_URL}resume.pdf`} download
               className="group inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
             >
               <Download className="h-4 w-4" /> Download Resume
@@ -764,7 +763,7 @@ function Contact() {
               <MessageCircle className="h-4 w-4 text-primary" /> WhatsApp
             </a>
             <a
-              href="/resume.pdf" download
+              href={`${import.meta.env.BASE_URL}resume.pdf`} download
               className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-[var(--shadow-glow)] transition-transform hover:-translate-y-0.5"
             >
               <Download className="h-4 w-4" /> Resume
