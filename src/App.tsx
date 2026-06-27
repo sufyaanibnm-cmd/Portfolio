@@ -7,9 +7,9 @@ import {
   Image as ImageIcon,
 } from "lucide-react";
 
-// Place your portrait image at public/portrait.jpg (or .png) and update this path.
+// Place your portrait image at public/portrait.png and update this path.
 // It is referenced as a plain public-folder URL so GitHub Pages can serve it.
-const portrait = "/portrait.jpg";
+const portrait = "/portrait.png";
 
 export default function App() {
   return (
