@@ -740,7 +740,7 @@ function Contact() {
             { icon: Mail, k: "Email", v: "mushtaqahmad.ibnm@gmail.com", href: "mailto:mushtaqahmad.ibnm@gmail.com" },
             { icon: Phone, k: "Phone", v: "+971 52 620 3599", href: "tel:+971526203599" },
             { icon: MapPin, k: "Location", v: "Dubai, United Arab Emirates" },
-            { icon: Linkedin, k: "LinkedIn", v: "Connect on LinkedIn", href: "https://linkedin.com" },
+            { icon: Linkedin, k: "LinkedIn", v: "View My LinkedIn Profile", href: "https://www.linkedin.com/in/mushtaq-ahmad-3906a7232" },
           ].map(({ icon: Icon, k, v, href }) => {
             const inner = (
               <div className="flex items-start gap-4 rounded-2xl border border-border bg-surface p-5 transition-colors hover:border-primary/40">
@@ -806,7 +806,7 @@ function Footer() {
             <li><a href="mailto:mushtaqahmad.ibnm@gmail.com" className="hover:text-foreground">Email</a></li>
             <li><a href="tel:+971526203599" className="hover:text-foreground">Phone</a></li>
             <li><a href="https://wa.me/971526203599" className="hover:text-foreground" target="_blank" rel="noreferrer">WhatsApp</a></li>
-            <li><a href="https://linkedin.com" className="hover:text-foreground">LinkedIn</a></li>
+            <li><a href="https://www.linkedin.com/in/mushtaq-ahmad-3906a7232" className="hover:text-foreground" target="_blank" rel="noreferrer">LinkedIn</a></li>
           </ul>
         </div>
       </div>
